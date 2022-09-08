@@ -277,13 +277,47 @@
 ###################################################################################################
 # Data structure: Tuple
 
-zoo = ('python','elephant','pengquin')
-print('number animals in the zoo is ', len(zoo))
+# zoo = ('python','elephant','pengquin')
+# print('number animals in the zoo is ', len(zoo))
 
-new_zoo = 'monkey', 'camel', zoo
-print('number of cage in the new zoo is ', len(new_zoo))
+# new_zoo = 'monkey', 'camel', zoo
+# print('number of cage in the new zoo is ', len(new_zoo))
 
-print('all animal in new zoo are', new_zoo)
-print('animala brought from old zoo are ', new_zoo[2])
-print('last animal brought from old zoo is ', new_zoo[2][2])
-print('number of animals in new zoo is', len(new_zoo)-1 + len(new_zoo[2]))
+# print('all animal in new zoo are', new_zoo)
+# print('animala brought from old zoo are ', new_zoo[2])
+# print('last animal brought from old zoo is ', new_zoo[2][2])
+# print('number of animals in new zoo is', len(new_zoo)-1 + len(new_zoo[2]))
+
+
+# #empty tuple
+# emypty_tuple = ()
+# #sinle item in tupe: have to put comma after
+# single_item = ('2',)
+# print(single_item[0])
+###################################################################################################
+# Data structure: Sequence
+
+shoplist = ['apple', 'mango', 'carrot', 'banana']
+name = 'swaroop'
+
+#indexing or 'subscript' operation
+print('Item 0 is ', shoplist[0])
+print('Item 1 is ', shoplist[1])
+print('Item 2 is ', shoplist[2])
+print('Item 3 is ', shoplist[3])
+print('Item -1 is ', shoplist[-1])
+print('Item -2 is ', shoplist[-2])
+print('Character 0 is ', name[0])
+
+#slicing on a list
+
+print('Item 1 to 3 is ', shoplist[1:3])
+print('Item 2 to end is ', shoplist[2:])
+print('Item 1 to -1 is ', shoplist[1:-1])
+print('Item start to end is ', shoplist[:])
+
+#slicing on a string
+print('character 1 to 3 is ', name[1:3])
+print('character 2 to end is ', name[2:])
+print('character 1 to -1 is ', name[1:-1])
+print('character start to end is ', name[:])
