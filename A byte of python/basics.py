@@ -297,27 +297,74 @@
 ###################################################################################################
 # Data structure: Sequence
 
-shoplist = ['apple', 'mango', 'carrot', 'banana']
+# shoplist = ['apple', 'mango', 'carrot', 'banana']
+# name = 'swaroop'
+
+# #indexing or 'subscript' operation
+# print('Item 0 is ', shoplist[0])
+# print('Item 1 is ', shoplist[1])
+# print('Item 2 is ', shoplist[2])
+# print('Item 3 is ', shoplist[3])
+# print('Item -1 is ', shoplist[-1])
+# print('Item -2 is ', shoplist[-2])
+# print('Character 0 is ', name[0])
+
+# #slicing on a list
+
+# print('Item 1 to 3 is ', shoplist[1:3])
+# print('Item 2 to end is ', shoplist[2:])
+# print('Item 1 to -1 is ', shoplist[1:-1])
+# print('Item start to end is ', shoplist[:])
+
+# #slicing on a string
+# print('character 1 to 3 is ', name[1:3])
+# print('character 2 to end is ', name[2:])
+# print('character 1 to -1 is ', name[1:-1])
+# print('character start to end is ', name[:])
+
+###################################################################################################
+# Data structure: Set
+
+# bri = set(['russia', 'pakistan', 'india'])
+# if 'kabul' in bri:
+#     print('true')
+# else:
+#     print('false')
+
+# bric = bri.copy()
+# bric.add('afghanistan')
+# print(bric)
+# bri.remove('india')
+# print(bri)
+# bric.remove('pakistan')
+# print(bri & bric)
+
+
+###################################################################################################
+# Data structure: Refrences
+
+# shoplist = ['apple','kiwi', 'melon', 'banana']
+# mylist = shoplist
+
+# print('shoplist ', shoplist)
+# print('mylist ', mylist)
+
+# mylist = shoplist[:]
+# del mylist[1]
+# print('mylist ', mylist)
+# print('shoplist ', shoplist)
+
+###################################################################################################
+# Data structure: More about String
+list = ['apple','banana','orange']
 name = 'swaroop'
 
-#indexing or 'subscript' operation
-print('Item 0 is ', shoplist[0])
-print('Item 1 is ', shoplist[1])
-print('Item 2 is ', shoplist[2])
-print('Item 3 is ', shoplist[3])
-print('Item -1 is ', shoplist[-1])
-print('Item -2 is ', shoplist[-2])
-print('Character 0 is ', name[0])
+if name.startswith('swa'):
+    print('yes the string starts with swa')
+if 'a' in name:
+    print('yes the string contain a')
+if name.find('swaroop') != -1:
+    print('the string complete')
 
-#slicing on a list
-
-print('Item 1 to 3 is ', shoplist[1:3])
-print('Item 2 to end is ', shoplist[2:])
-print('Item 1 to -1 is ', shoplist[1:-1])
-print('Item start to end is ', shoplist[:])
-
-#slicing on a string
-print('character 1 to 3 is ', name[1:3])
-print('character 2 to end is ', name[2:])
-print('character 1 to -1 is ', name[1:-1])
-print('character start to end is ', name[:])
+delr = '_$_'
+print(delr.join(list))
