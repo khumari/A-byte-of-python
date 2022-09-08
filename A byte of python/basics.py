@@ -228,7 +228,19 @@
 
 #Here is the version utilizing from.. import syntax
 
-from mymodule import say_hi, __version__
+# from mymodule import say_hi, __version__
 
-say_hi()
-print('version ', __version__)
+# say_hi()
+# print('version ', __version__)
+
+###################################################################################################
+# import this
+###################################################################################################
+# The dir function
+import sys
+
+dir(sys)
+
+a = 5
+b = 8
+dir()
