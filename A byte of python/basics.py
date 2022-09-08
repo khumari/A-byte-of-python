@@ -211,9 +211,24 @@
 
 ###################################################################################################
 #A module's __name__
-import math
+# import math
 
-if __name__ == '__main__':
-    print('This program is run by itself')
-else:
-    print('I am being imported from another module')
+# if __name__ == '__main__':
+#     print('This program is run by itself')
+# else:
+#     print('I am being imported from another module')
+
+###################################################################################################
+# Making your own modules
+
+# import mymodule
+
+# mymodule.say_hi()
+# print('version ', mymodule.__version__)
+
+#Here is the version utilizing from.. import syntax
+
+from mymodule import say_hi, __version__
+
+say_hi()
+print('version ', __version__)
