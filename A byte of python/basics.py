@@ -236,11 +236,54 @@
 ###################################################################################################
 # import this
 ###################################################################################################
-# The dir function
-import sys
+# The dir function, try it in interactive python interpreter
+# import sys
 
-dir(sys)
+# dir(sys)
 
-a = 5
-b = 8
-dir()
+# a = 5
+# b = 8
+# dir()
+
+###################################################################################################
+# Data structure: List
+
+# shoplist = ['apple', 'pomegranate', 'banana', 'carrot', 'peach', 'grape']
+
+# print('I have ', len(shoplist), ' items to purcahse')
+# print('These items are ')
+# for items in shoplist:
+#     print(items)
+
+# print('This is my list', shoplist)
+
+# shoplist.sort()
+
+# print('This is my list after sort', shoplist)
+
+# shoplist.append('kiwi')
+
+# print('This is my current list', shoplist)
+
+# old_item = shoplist[0]
+
+# del shoplist[0]
+
+# print('I purchased ', old_item)
+
+# print('These are items left now I need to purchase', shoplist)
+
+
+###################################################################################################
+# Data structure: Tuple
+
+zoo = ('python','elephant','pengquin')
+print('number animals in the zoo is ', len(zoo))
+
+new_zoo = 'monkey', 'camel', zoo
+print('number of cage in the new zoo is ', len(new_zoo))
+
+print('all animal in new zoo are', new_zoo)
+print('animala brought from old zoo are ', new_zoo[2])
+print('last animal brought from old zoo is ', new_zoo[2][2])
+print('number of animals in new zoo is', len(new_zoo)-1 + len(new_zoo[2]))
