@@ -355,16 +355,18 @@
 # print('shoplist ', shoplist)
 
 ###################################################################################################
-# Data structure: More about String
-list = ['apple','banana','orange']
-name = 'swaroop'
+# #Data structure: More about String
+# list = ['apple','banana','orange']
+# name = 'swaroop'
 
-if name.startswith('swa'):
-    print('yes the string starts with swa')
-if 'a' in name:
-    print('yes the string contain a')
-if name.find('swaroop') != -1:
-    print('the string complete')
+# if name.startswith('swa'):
+#     print('yes the string starts with swa')
+# if 'a' in name:
+#     print('yes the string contain a')
+# if name.find('swaroop') != -1:
+#     print('the string complete')
 
-delr = '_$_'
-print(delr.join(list))
+# delimter = '__*__'
+# print(delimter.join(list))
+
+###################################################################################################
